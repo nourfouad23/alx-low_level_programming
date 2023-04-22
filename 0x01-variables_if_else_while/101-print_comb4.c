@@ -17,12 +17,12 @@ for (j = 1 ; j < 10 ; j++)
 {
 for (z = 1 ; z < 10 ; z++)
 {
-if (i != j && j > i)
+if (i != j && i != z && j!= z && z > j)
 {
 putchar('0' + i);
 putchar('0' + j);
 putchar('0' + z);
-if (j <= 8 && z <= 9)
+if (i < 8 && j <= 8 && z <= 9)
 {
 putchar(',');
 putchar(' ');
