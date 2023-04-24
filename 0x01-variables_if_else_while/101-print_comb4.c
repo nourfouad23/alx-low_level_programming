@@ -22,7 +22,7 @@ if (i != j && i != z && j != z && z > j)
 putchar('0' + i);
 putchar('0' + j);
 putchar('0' + z);
-if (i < 8 && j < 9 && z <= 9)
+if (i < 7 && j < 9 && z <= 9)
 {
 putchar(',');
 putchar(' ');
