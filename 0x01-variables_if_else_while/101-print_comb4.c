@@ -13,9 +13,9 @@ int z;
 
 for (i = 0 ; i < 10 ; i++)
 {
-for (j = 1 ; j < 10 ; j++)
+for (j =i+1 ; j < 10 ; j++)
 {
-for (z = 1 ; z < 10 ; z++)
+for (z = j+1 ; z < 10 ; z++)
 {
 if (i != j && i != z && j!= z && z > j)
 {
