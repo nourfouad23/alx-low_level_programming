@@ -5,11 +5,11 @@
  * main - Entry point
  *
  * Description: 'prints alphabets from a to z in lowercase
- *
+ * print_alphabet: 'prints alphabet from a to z in lowercase 
  * Return: Always 0 (Success)
  */
 
-void print_alphabet(void) // prints alphabet from a to z
+void print_alphabet(void)
 {
 char i;
 
