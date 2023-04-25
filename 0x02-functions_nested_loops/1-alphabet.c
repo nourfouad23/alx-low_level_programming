@@ -8,8 +8,12 @@
 
 void print_alphabet()
 {
-for (int i = 'a'; i <= 'z'; i++)
-	printf(i);
+char i;
+
+for (i = 'a'; i <= 'z'; i++)
+{
+printf(i);
+}
 printf("\n");
 }	
 
