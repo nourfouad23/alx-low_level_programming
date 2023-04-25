@@ -1,14 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 
-/**
- * main - Entry point
- *
- * Description: 'prints alphabets from a to z in lowercase
- * print_alphabet: 'prints alphabet from a to z in lowercase 
- * Return: Always 0 (Success)
- */
 
+/*print_alphabet: prints alphabet from a to z in lowercase*/
 void print_alphabet(void)
 {
 char i;
