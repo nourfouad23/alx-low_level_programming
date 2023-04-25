@@ -2,9 +2,8 @@
 #include "main.h"
 
 /**
- * print_alphabet
- *
- * prints from a to z lowercase (Success)
+ * print_alphabet : prints from a to z lowercase (Success)
+ * 
  */
 
 void print_alphabet(void)
