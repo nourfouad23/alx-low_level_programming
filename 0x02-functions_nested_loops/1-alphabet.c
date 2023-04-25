@@ -12,9 +12,9 @@ char i;
 
 for (i = 'a'; i <= 'z'; i++)
 {
-printf(i);
+putchar(i);
 }
-printf("\n");
+putchar('\n');
 }	
 
 int main(void)
