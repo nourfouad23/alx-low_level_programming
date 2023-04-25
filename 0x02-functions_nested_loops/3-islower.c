@@ -6,7 +6,7 @@
  * _islower - returns true if char is lowercase else returns false
  */
 
-int _islower(char c)
+int islower(char c)
 {
 if (islower(c))
 {
