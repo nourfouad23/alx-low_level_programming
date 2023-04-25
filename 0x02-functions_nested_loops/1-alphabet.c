@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 
+/**
+ * print_alphabet - prints alphabet from a to z in lowercase
+ */
 
-/*print_alphabet: prints alphabet from a to z in lowercase*/
 void print_alphabet(void)
 {
 char i;
