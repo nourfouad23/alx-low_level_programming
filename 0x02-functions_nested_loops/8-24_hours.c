@@ -14,7 +14,7 @@ int minutes;
 
 for (hours = 0; hours <= 23; hours++)
 {
-for (minutes = 0; minutes <= 60; minutes++)
+for (minutes = 0; minutes < 60; minutes++)
 {
 if (hours < 10 && minutes < 10)
 {
