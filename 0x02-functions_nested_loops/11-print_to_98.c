@@ -18,7 +18,8 @@ for (i = n; i <= 98; i ++)
 if (i != 98)
 {
 _putchar('0' + i);
-_putchar(', ');
+_putchar(',');
+_putchar(' ');
 }
 else
 {
