@@ -26,7 +26,6 @@ else
 printf("%d", i);
 }
 }
-_putchar('\n');
 }
 else
 {
@@ -41,6 +40,6 @@ else
 printf("%d", i);
 }
 }
-_putchar('\n');
 }
+printf("\n");
 }
