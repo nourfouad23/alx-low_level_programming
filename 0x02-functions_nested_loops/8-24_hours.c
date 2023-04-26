@@ -11,8 +11,8 @@ void jack_bauer(void)
 {
 int hours;
 int minutes;
-int oneDigitHour;
-int oneDigitMinute;
+char oneDigitHour;
+char oneDigitMinute;
 
 for ( hours = 0; hours <= 23; hours++)
 {
@@ -31,4 +31,7 @@ else
 _putchar('0' + hours);
 _putchar('0' + minutes);
 _putchar('\n');
+}
+}
+}
 }
