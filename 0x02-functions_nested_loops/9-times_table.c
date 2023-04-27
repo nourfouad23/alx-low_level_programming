@@ -19,7 +19,7 @@ printf("0,  ");
 for (j = 1; j <= 9; j++)
 {
 result = i * j;
-nextValue = (i + 1) * (j + 1);
+nextValue = i * (j + 1);
 
 if ((nextValue < 10) && j != 9)
 {
