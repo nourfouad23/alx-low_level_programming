@@ -2,16 +2,17 @@
 #include "main.h"
 
 /**
- * print_line - function to check, print and return
+ * print_square - function to check, print and return
  *
- * @n: Number to pass
+ * @size: Number to pass
  */
 
 void print_square(int size)
 {
-int i,j;
+int i;
+int j;
 
-if (n <= 0)
+if (size <= 0)
 {
 _putchar('\n');
 }
