@@ -14,10 +14,11 @@ int result;
 
 for (i = 0; i <= 9; i++)
 {
-for (j = 0; j <= 9; j++)
+printf("0,  ");
+for (j = 1; j <= 9; j++)
 {
 result = i * j;
-if (result < 10 && j != 9 && i < 2)
+if (((i + 1) * (j + 1)) < 10 && j != 9)
 {
 printf("%d,  ", result);
 }
