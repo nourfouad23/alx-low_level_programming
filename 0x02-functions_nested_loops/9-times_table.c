@@ -18,7 +18,7 @@ printf("0,  ");
 for (j = 1; j <= 9; j++)
 {
 result = i * j;
-if (((i + 1) * (j + 1)) < 10 && j != 9)
+if ((((i + 1) * (j + 1)) < 10) && j != 9)
 {
 printf("%d,  ", result);
 }
