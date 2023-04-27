@@ -19,7 +19,7 @@ else if (num % 5 == 0 && num != 100)
 {
 printf("Buzz ");
 }
-else if (num % 5 ==0 && num == 100)
+else if (num % 5 == 0 && num == 100)
 {
 printf("Buzz");
 }
