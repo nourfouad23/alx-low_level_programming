@@ -3,7 +3,6 @@
 
 /**
  * print_most_numbers - function to check, print and return
- *
  */
 
 void print_most_numbers(void)
