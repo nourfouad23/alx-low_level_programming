@@ -12,7 +12,7 @@ int num;
 
 for (num = 0; num < 10; num++)
 {
-_putchar('0' + num);
+printf("%d", num);
 }
-_putchar('\n');
+printf("\n");
 }
