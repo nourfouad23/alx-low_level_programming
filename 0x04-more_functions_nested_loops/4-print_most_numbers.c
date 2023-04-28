@@ -11,7 +11,7 @@ int num;
 
 for (num = 0; num < 10; num++)
 {
-if (num != 0 && num != 2)
+if (num != 4 && num != 2)
 {
 printf("%d", num);
 }
