@@ -15,6 +15,8 @@ void puts2(char *str)
 {
 int i = 0;
 
+if (str != "")
+{
 printf("%c", str[i]);
 while (i < ((_strlen(str)) - 2))
 {
@@ -23,4 +25,9 @@ printf("%c", str[i]);
 }
 
 printf("\n");
+}
+else
+{
+printf("\n");
+}
 }
