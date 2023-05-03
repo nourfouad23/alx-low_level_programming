@@ -21,14 +21,14 @@ if (strLength % 2 == 0)
 {
 for (i = strLength / 2; i < strLength; i++)
 {
-printf("%s", str);
+printf("%c", str[i]);
 }
 }
 else
 {
 for (i = ((strLength - 1) / 2); i < strLength; i++)
 {
-printf("%s", str);
+printf("%c", str[i]);
 }
 }
 printf("\n");
