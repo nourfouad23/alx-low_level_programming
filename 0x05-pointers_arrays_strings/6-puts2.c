@@ -15,9 +15,9 @@ void puts2(char *str)
 {
 int i = 0;
 
-if (str != 0)
+if (str != '\0')
 {
-printf("%c", str[i]);
+printf("%c", str[0]);
 while (i < ((_strlen(str)) - 2))
 {
 i = i + 2;
