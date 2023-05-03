@@ -26,7 +26,7 @@ printf("%c", str[i]);
 }
 else
 {
-for (i = ((strLength - 1) / 2); i < strLength; i++)
+for (i = (((strLength - 1) / 2) + 1); i < strLength; i++)
 {
 printf("%c", str[i]);
 }
