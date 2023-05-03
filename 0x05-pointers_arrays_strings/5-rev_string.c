@@ -14,9 +14,9 @@
 
 void rev_string(char *s)
 {
-int i,j;
+int i, j;
 
-char* temp = malloc(sizeof(*temp));
+char *temp = malloc(sizeof(*temp));
 
 
 i = 0;
@@ -26,7 +26,7 @@ temp[_strlen(s) - 1] = s[0];
 
 while (i < (_strlen(s) - 2))
 {
-while ( j > 0)
+while (j > 0)
 {
 temp[i] = s[j];
 j--;
