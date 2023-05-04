@@ -1,6 +1,9 @@
 #include "main.h"
 #include <stdio.h>
-#include "2-strlen.c"
+#include <stdio.h>
+#include <string.h>
+
+
 /**
  * _strcat - check the code
  *
@@ -16,7 +19,7 @@ int i;
 
 for (i = 0; src[i] != '\0'; i++)
 {
-dest[(_stlen(src) + 1) + i] = src[i];
+dest[(strlen(src) + 1) + i] = src[i];
 }
 
 return (dest);
