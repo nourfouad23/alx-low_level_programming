@@ -19,6 +19,7 @@ char *_strncat(char *dest, char *src, int n)
 int j, z, stopper;
 
 int length = strlen(dest) + n;
+
 int maxLength = strlen(dest) + strlen(src);
 
 char *temp = malloc(sizeof(*temp));
