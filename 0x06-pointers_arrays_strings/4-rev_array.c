@@ -16,18 +16,18 @@ void reverse_array(int *a, int n)
 {
 int i, startIndex;
 
-if (n < 0)
+if (n <= 0)
 {
-startIndex = sizeof(a) - 1;
+startIndex = *(&a + 1) - a;
 }
 else
 {
-startIndex = n - 1;
+startIndex = n;
 }
 
-for (i = startIndex; i >= 0; i--)
+for (i = startIndex - 1; i >= 0; i--)
 {
-if (i != startIndex)
+if (i != startIndex - 1)
 {
 printf(", ");
 }
