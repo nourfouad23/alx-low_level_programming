@@ -33,5 +33,5 @@ result = s1[i] - s2[i];
 break;
 }
 }
-return result;
+return (result);
 }
