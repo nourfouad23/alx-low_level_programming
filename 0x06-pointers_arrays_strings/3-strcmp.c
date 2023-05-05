@@ -27,7 +27,7 @@ if (s1[i] == s2[i])
 
 result = 0;
 
-else 
+else
 {
 result = s1[i] - s2[i];
 break;
