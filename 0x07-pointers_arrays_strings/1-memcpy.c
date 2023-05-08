@@ -39,6 +39,7 @@ return (dest);
 }
 else
 {
-return '\n';
+printf("\n");
+return 0;
 }
 }
