@@ -4,12 +4,11 @@
 #include <stdlib.h>
 
 /**
- * _memsett - check the code
+ * _memset - check the code
  *
  *@s: passed parameter
  *@b: passed parameter
  *@n: passed parameter
- * 
  * Return: returns value
  */
 
