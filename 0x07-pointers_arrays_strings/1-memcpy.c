@@ -9,7 +9,6 @@
  *@dest: passed parameter
  *@src: passed parameter
  *@n: passed parameter
- * 
  * Return: returns value
  */
 
@@ -40,6 +39,6 @@ return (dest);
 else
 {
 printf("\n");
-return 0;
+return (0);
 }
 }
