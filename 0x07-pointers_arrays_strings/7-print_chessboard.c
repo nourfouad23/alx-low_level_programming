@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-#include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
 
@@ -8,7 +7,6 @@
  *print_chessboard - check the code
  *
  *@a: passed parameter
- * 
  */
 
 
