@@ -24,6 +24,11 @@ if (s[i] == c)
 index = i;
 break;
 }
+else
+{
+printf("\n");
+return (s);
+}
 }
 j = index;
 z = 0;
