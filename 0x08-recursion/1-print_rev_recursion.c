@@ -18,10 +18,11 @@ int i;
 
 i = strlen(s);
 
+printf("%c", s[i]);
 if (i > 0)
 {
-printf("%c", s[i]);
 i--;
+printf("%c", s[i]);
 }
 printf("\n");
 }
