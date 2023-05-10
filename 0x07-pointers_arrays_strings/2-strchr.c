@@ -8,7 +8,6 @@
  *
  *@s: passed parameter
  *@c: passed parameter
- * 
  * Return: returns value
  */
 
@@ -39,6 +38,4 @@ z++;
 s = temp;
 
 return (s);
-
-
 }
