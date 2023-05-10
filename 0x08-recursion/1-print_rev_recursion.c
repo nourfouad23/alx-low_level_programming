@@ -18,7 +18,7 @@ int i;
 
 i = strlen(s);
 
-while (i > 0)
+if (i > 0)
 {
 printf("%c", s[i]);
 i--;
