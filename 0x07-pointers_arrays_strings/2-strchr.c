@@ -14,6 +14,7 @@
 char *_strchr(char *s, char c)
 {
 int i, j, z ,index;
+
 char *temp = malloc(sizeof(*s));
 
 printf("%ld", sizeof(*s));
