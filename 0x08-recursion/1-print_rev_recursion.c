@@ -14,15 +14,13 @@
 
 void _print_rev_recursion(char *s)
 {
-int i;
-
-i = strlen(s);
-
-printf("%c", s[i]);
-if (i > 0)
+if (*s)
 {
-i--;
-printf("%c", s[i]);
+_print_rev_recursion(s + 1);
+printf("%c", *s);
 }
-printf("\n");
+else
+{
+printf("%c", *s);
+}
 }
