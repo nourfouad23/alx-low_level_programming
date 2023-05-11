@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#include "4-pow_recursion.c" 
+#include "4-pow_recursion.c"
 
 /**
  * _sqrt_recursion - check the code
