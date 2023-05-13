@@ -27,7 +27,7 @@ result = 1;
 }
 else
 {
-printf("Error");
+printf("Error\n");
 return (1);
 }
 printf("%d\n", result);
