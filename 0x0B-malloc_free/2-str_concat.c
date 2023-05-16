@@ -16,9 +16,17 @@ if (s1 == NULL && s2 == NULL)
 {
 return (NULL);
 }
+else if (s1 == NULL)
+{
+return (s2);
+}
+else if (s2 == NULL)
+{
+return (s1);
+}
 else
 {
-char *newstr = (char *) malloc((strlen(s1) + strlen(s2)) * sizeof(char));
+char *newstr = (char *) malloc(((strlen(s1) + strlen(s2)) * sizeof(char)) + 1);
 
 unsigned int i, j, z;
 
