@@ -17,7 +17,7 @@ return (NULL);
 }
 else
 {
-char *newstr = (char *) malloc(strlen(str) * sizeof(char));
+char *newstr = (char *) malloc((strlen(str) * sizeof(char)) + 1);
 
 unsigned int i;
 
