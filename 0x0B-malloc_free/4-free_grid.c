@@ -4,9 +4,10 @@
 #include <string.h>
 
 /**
- * _strdup - copy func
- *@str: passed param
- * Return: return value.
+ * free_grid - free func
+ *@grid: passed param
+ *height: passed param
+ * Return: return nothing.
  */
 
 void free_grid(int **grid, int height)
