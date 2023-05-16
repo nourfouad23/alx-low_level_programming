@@ -16,11 +16,11 @@ if (s1 == NULL && s2 == NULL)
 {
 return (NULL);
 }
-else if (s1 == NULL)
+else if (s1 == NULL && s2 != NULL)
 {
 return (s2);
 }
-else if (s2 == NULL)
+else if (s2 == NULL && s1 != NULL)
 {
 return (s1);
 }
@@ -32,6 +32,12 @@ unsigned int i, j, z;
 
 newstr = (char *) malloc(((strlen(s1) + strlen(s2)) * sizeof(char)) + 1);
 
+if (!newstr)
+{
+return (NULL);
+}
+else
+{
 for (i = 0; i < strlen(s1); i++)
 {
 newstr[i] = s1[i];
@@ -45,5 +51,6 @@ newstr[z] = s2[j];
 z++;
 }
 return (newstr);
+}
 }
 }
