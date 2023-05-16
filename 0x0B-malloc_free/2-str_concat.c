@@ -26,9 +26,11 @@ return (s1);
 }
 else
 {
-char *newstr = (char *) malloc(((strlen(s1) + strlen(s2)) * sizeof(char)) + 1);
+char *newstr;
 
 unsigned int i, j, z;
+
+newstr = (char *) malloc(((strlen(s1) + strlen(s2)) * sizeof(char)) + 1);
 
 for (i = 0; i < strlen(s1); i++)
 {
