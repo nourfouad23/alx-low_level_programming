@@ -17,6 +17,12 @@ unsigned int i;
 
 arr = malloc(size * (sizeof(char)));
 
+if (!arr)
+{
+return (NULL);
+}
+else
+{
 if (size == 0)
 {
 return (NULL);
@@ -28,5 +34,6 @@ for (i = 0; i < size; i++)
 arr[i] = c;
 }
 return (arr);
+}
 }
 }
