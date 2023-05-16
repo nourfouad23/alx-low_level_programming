@@ -11,16 +11,16 @@
 
 char *_strdup(char *str)
 {
-char *newstr = (char *) malloc(strlen(str) * sizeof(char));
-
-long unsigned int i;
-
 if (str == NULL)
 {
 return (NULL);
 }
 else
 {
+char *newstr = (char *) malloc(strlen(str) * sizeof(char));
+
+unsigned int i;
+
 for (i = 0; i <= strlen(str); i++)
 {
 newstr[i] = str[i];
