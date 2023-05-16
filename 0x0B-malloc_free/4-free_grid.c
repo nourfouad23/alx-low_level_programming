@@ -6,7 +6,7 @@
 /**
  * free_grid - free func
  *@grid: passed param
- *height: passed param
+ *@height: passed param
  * Return: return nothing.
  */
 
