@@ -19,6 +19,12 @@ else
 {
 char *newstr = (char *) malloc((strlen(str) * sizeof(char)) + 1);
 
+if (!newstr)
+{
+return (NULL);
+}
+else
+{
 unsigned int i;
 
 for (i = 0; i <= strlen(str); i++)
@@ -26,5 +32,6 @@ for (i = 0; i <= strlen(str); i++)
 newstr[i] = str[i];
 }
 return (newstr);
+}
 }
 }
