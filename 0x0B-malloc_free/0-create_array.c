@@ -23,7 +23,7 @@ return (NULL);
 }
 else
 {
-for (i = 0; i < size - 1; i++)
+for (i = 0; arr[i] != '\0'; i++)
 {
 arr[i] = c;
 }
