@@ -19,14 +19,14 @@ arr = malloc(size * (sizeof(c)));
 
 if (size == 0)
 {
-return NULL;
+return (NULL);
 }
 else
 {
-for (i = 0; i < size; i++)
+for (i = 0; i < size - 1; i++)
 {
 arr[i] = c;
 }
-return arr;
+return (arr);
 }
 }
