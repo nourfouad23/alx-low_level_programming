@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 /**
- * main - Entry point
+ *main - Entry point
  *@argc: number returned
  *@argv: strings returned
- * Return: Always 0 (Success)
+ *Return: returns value
  */
 
 int main(int argc, char *argv[])
@@ -31,5 +31,5 @@ printf("Error\n");
 return (1);
 }
 printf("%d\n", result);
-return (0);
+return (result);
 }
