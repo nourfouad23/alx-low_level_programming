@@ -31,5 +31,5 @@ printf("Error\n");
 return (1);
 }
 printf("%d\n", result);
-return (result);
+return (0);
 }
