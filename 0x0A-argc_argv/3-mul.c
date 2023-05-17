@@ -21,7 +21,7 @@ for (i = 1; i < argc; i++)
 result = result * atoi(argv[i]);
 }
 }
-else if (argc == 1)
+else if (argc == 0)
 {
 result = 1;
 }
