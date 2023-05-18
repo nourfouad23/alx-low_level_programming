@@ -4,9 +4,9 @@
 #include <limits.h>
 
 /**
- * malloc_checked - check the code
+ *malloc_checked - check the code
  *@b: passed param
- * Return: nothing.
+ *Return: pointer.
  */
 
 void *malloc_checked(unsigned int b)
