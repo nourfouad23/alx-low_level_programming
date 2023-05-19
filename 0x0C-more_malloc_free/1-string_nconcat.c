@@ -31,7 +31,7 @@ for (j = 0; s2[j] != '\0'; j++)
 
 if (n >= sizeof(s2))
 {
-newstr = (char *) malloc(((strlen(s1) + strlen(s2)) * sizeof(char)) + 1);
+newstr = (char *) malloc(((strlen(s1) + strlen(s2) + 1) * sizeof(char)));
 }
 else if (n < sizeof(s2))
 {
