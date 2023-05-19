@@ -11,18 +11,15 @@
 
 void *malloc_checked(unsigned int b)
 {
-if (b != 0)
+int *newptr;
+
+newptr = malloc(b);
+
+
+if (newptr == NULL)
 {
-return (malloc(sizeof(b)));
+exit(98);
 }
-else
-{
-long x = 98;
 
-long *y;
-
-y = &x;
-
-return ((void *)*y);
-}
+return (newptr);
 }
