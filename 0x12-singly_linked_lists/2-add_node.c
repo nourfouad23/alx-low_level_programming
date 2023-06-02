@@ -23,6 +23,7 @@ if (newNode == NULL)
 return (NULL);
 
 newNode->str = strdup(str);
+newNode->len = strlen(str);
 
 if (*head == NULL)
 {
