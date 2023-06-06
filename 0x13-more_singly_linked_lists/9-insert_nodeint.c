@@ -48,4 +48,5 @@ if (temp_list == NULL)
 {
 free(newNode);
 }
+return (newNode);
 }
