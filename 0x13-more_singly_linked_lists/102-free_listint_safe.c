@@ -13,9 +13,9 @@
  *
  */
 
-list_size_t free_listint_safe(listint_t **h)
+size_t free_listint_safe(listint_t **h)
 {
-list_size_t list_size = 0;
+size_t list_size = 0;
 listint_t *current_node, *prev_node;
 
 if (h == NULL || *h == NULL)
