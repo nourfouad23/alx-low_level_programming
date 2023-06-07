@@ -25,5 +25,5 @@ h = h->next;
 Nodecount++;
 }
 
-return(Nodecount);
+return (Nodecount);
 }
