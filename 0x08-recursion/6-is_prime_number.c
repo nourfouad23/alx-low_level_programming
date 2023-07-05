@@ -28,7 +28,6 @@ if (n % i == 0)
 return (0);
 }
 }
-is_prime_number(n);
 
 return (1);
 
