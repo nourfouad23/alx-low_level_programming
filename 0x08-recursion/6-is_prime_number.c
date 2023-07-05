@@ -11,12 +11,13 @@ if (n <= 1)
 return (0);
 }
 
-for (i = 2; i * i <= n; i++)
+if (i * i <= n)
 {
 if (n % i == 0)
 {
 return (0);
 }
+is_prime_number(n);
 }
 
 return (1);
