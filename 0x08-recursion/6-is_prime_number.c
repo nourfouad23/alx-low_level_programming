@@ -21,7 +21,7 @@ return (0);
 
 i = 2;
 
-if (i * i <= n)
+if (i*i <= n)
 {
 if (n % i == 0)
 {
