@@ -28,7 +28,6 @@ for (i = 0; s1[i] != '\0'; i++)
 ;
 for (j = 0; s2[j] != '\0'; j++)
 ;
-
 if (n >= sizeof(s2))
 {
 newstr = (char *) malloc(((strlen(s1) + strlen(s2) + 1) * sizeof(char)));
@@ -52,7 +51,6 @@ for (i = 0; i < strlen(s1); i++)
 newstr[i] = s1[i];
 }
 z = strlen(s1);
-
 for (j = 0; j < n; j++)
 {
 newstr[z] = s2[j];
