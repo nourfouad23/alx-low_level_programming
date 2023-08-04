@@ -7,10 +7,10 @@
 
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int numb = 0;
+	unsigned int numb;
 	unsigned int i;
 
-	for (i = 0; b[i] != '\0'; i++)
+	for (numb = 0,i = 0; b[i] != '\0'; i++)
 	{
 		if (b[i] == '1')
 			numb = (numb << 1) | 1;
