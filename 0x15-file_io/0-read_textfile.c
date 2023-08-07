@@ -13,40 +13,35 @@
 
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	char *toPrint;
-	ssize_t rd, wt;
-	int fileNumber;
+	int fileNumb;
+	int length, wroteChars;
+	char *buf;
 
-	if (filename == NULL)
+	if (filename == NULL || letters == 0)
 		return (0);
-	toPrint = malloc(sizeof(char) * letters);
-	if (toPrint == NULL)
+	buf = malloc(sizeof(char) * (letters));
+	if (buf == NULL)
 		return (0);
-	fileNumber = open(filename, O_RDONLY);
-	if (fileNumber < 0)
+
+	fileNumb = open(filename, O_RDONLY);
+	if (fileNumb == -1)
 	{
-		free(toPrint);
+		free(buf);
 		return (0);
 	}
-	rd = read(fileNumber, toPrint, letters);
-	if (rd < 0)
+	length = read(fileNumb, buf, letters);
+	if (length == -1)
 	{
-		free(toPrint);
+		free(buf);
+		close(fileNumb);
 		return (0);
 	}
-	if (rd > 0)
-		wt = write(STDOUT_FILENO, toPrint, rd);
-	if (wt < rd)
-	{
-		free(toPrint);
+
+	wroteChars = write(STDOUT_FILENO, buf, length);
+
+	free(buf);
+	close(fileNumb);
+	if (wroteChars != length)
 		return (0);
-	}
-	wt = close(fileNumber);
-	if (wt < 0)
-	{
-		free(toPrint);
-		return (0);
-	}
-	free(toPrint);
-	return (rd);
+	return (length);
 }
